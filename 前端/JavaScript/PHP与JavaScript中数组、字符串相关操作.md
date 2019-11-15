@@ -80,7 +80,7 @@ var myJSON = JSON.stringify(arr);
 
 ```php
 $json_arr = json_encode($arr)  //数组转json
-$arr = json_decode($json_arr)  //json转数组
+$arr = json_decode($json_arr,true)  //json转数组
 ```
 
 
